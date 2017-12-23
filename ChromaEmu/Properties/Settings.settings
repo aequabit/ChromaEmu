@@ -1,7 +1,33 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChromaEmu.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dns_servers" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nic" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BlcZ496fTZFH42KefU1GsoDOFipI1dQz</Value>
+    </Setting>
+    <Setting Name="iv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GnzlGN3UlwtjEc19vdrNgd42PGLkxytx</Value>
+    </Setting>
+    <Setting Name="url_key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://cc.aqbt.pw/aes/key</Value>
+    </Setting>
+    <Setting Name="url_iv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://cc.aqbt.pw/aes/iv</Value>
+    </Setting>
+    <Setting Name="key_exchange" Type="System.String" Scope="User">
+      <Value Profile="(Default)">H8vixq8IKlKdem39KWY9+Uu92/PeI8nbpwtwd95iOzI=</Value>
+    </Setting>
+    <Setting Name="iv_exchange" Type="System.String" Scope="User">
+      <Value Profile="(Default)">To1w3uRk0heLJFsCGSnNSgJneVIGR5+CIiUM7PhzFsI=</Value>
+    </Setting>
+    <Setting Name="emu_url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://chromaemu.000webhostapp.com</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

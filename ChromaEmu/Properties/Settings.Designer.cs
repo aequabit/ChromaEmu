@@ -12,7 +12,7 @@ namespace ChromaEmu.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -20,6 +20,114 @@ namespace ChromaEmu.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dns_servers {
+            get {
+                return ((string)(this["dns_servers"]));
+            }
+            set {
+                this["dns_servers"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string nic {
+            get {
+                return ((string)(this["nic"]));
+            }
+            set {
+                this["nic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BlcZ496fTZFH42KefU1GsoDOFipI1dQz")]
+        public string key {
+            get {
+                return ((string)(this["key"]));
+            }
+            set {
+                this["key"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("GnzlGN3UlwtjEc19vdrNgd42PGLkxytx")]
+        public string iv {
+            get {
+                return ((string)(this["iv"]));
+            }
+            set {
+                this["iv"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://cc.aqbt.pw/aes/key")]
+        public string url_key {
+            get {
+                return ((string)(this["url_key"]));
+            }
+            set {
+                this["url_key"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://cc.aqbt.pw/aes/iv")]
+        public string url_iv {
+            get {
+                return ((string)(this["url_iv"]));
+            }
+            set {
+                this["url_iv"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("H8vixq8IKlKdem39KWY9+Uu92/PeI8nbpwtwd95iOzI=")]
+        public string key_exchange {
+            get {
+                return ((string)(this["key_exchange"]));
+            }
+            set {
+                this["key_exchange"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("To1w3uRk0heLJFsCGSnNSgJneVIGR5+CIiUM7PhzFsI=")]
+        public string iv_exchange {
+            get {
+                return ((string)(this["iv_exchange"]));
+            }
+            set {
+                this["iv_exchange"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://chromaemu.000webhostapp.com")]
+        public string emu_url {
+            get {
+                return ((string)(this["emu_url"]));
+            }
+            set {
+                this["emu_url"] = value;
             }
         }
     }
