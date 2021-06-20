@@ -1,0 +1,45 @@
+x32dbg
+x64dbg
+windbg
+ollydbg
+smartinspect
+ilspy
+dnspy
+codereflect
+reflector
+justdecompile
+dotpeek
+reflexil
+dotnet il editor
+codecracker
+confuser methods decryptor
+confuserdelegatekiller
+confuserstringdecrypter
+snd patch
+reactor decrypter
+simple msil decryptor
+staticdecompressor
+universal fixer
+confuserexswitchkiller
+dereactor
+netdeob
+lordcoder
+megadumper
+venoxi
+kurapica
+netunpack
+fiddler
+wireshark
+network monitor
+tcpdump
+netcat
+ceper-ng
+nethogs
+ettercap
+microsoft message analyzer
+smartsniff
+ethereal
+sniff_hit
+sysanalyzer
+wpespy
+wpe pro
